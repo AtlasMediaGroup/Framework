@@ -1,10 +1,10 @@
 # Caldera Community Framework
 
-**Just Another PHP Framework...** [CCF](http://framework.calderams.com) is the base of many of our products, and so, it it just another everyday PHP framework.
+**Just Another PHP Framework...** [CCF](http://framework.calderams.com) is the base of many of our products, and so, it is just another everyday PHP framework.
 
 [Discussion Forum](http://calderams.com/forum) -
 [Twitter](http://twitter.com/CalderaMS) -
-[Contact](mailto:sales@calderams.org)
+[Contact](mailto:framework@calderams.org)
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/CalderaMS/CalderaPublic)
 
