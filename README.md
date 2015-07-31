@@ -23,26 +23,38 @@
 
 We appreciate all contributions, big or small. However, we will only accept those that follow our guidelines.
 
-All code must be written following the Stroustrup indent style. An example of this can be seen below:
+Coding Style (Please note, all code must also adhere to [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)): [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md):
 
  ```php
- if ($cond == true) {
-   //...
- }
- else {
-   //...
+<?php
+namespace Vendor\Package;
+
+use FooInterface;
+use BarClass as Bar;
+use OtherVendor\OtherPackage\BazClass;
+
+class Foo extends Bar implements FooInterface
+{
+    public function sampleFunction($a, $b = null)
+    {
+        if ($a === $b) {
+            bar();
+        } elseif ($a > $b) {
+            $foo->bar($arg1);
+        } else {
+            BazClass::bar($arg2, $arg3);
+        }
+    }
+
+    final public static function bar()
+    {
+        // method body
+    }
  }
 
  ```
 
-Other guidelines we ask that you follow are:
 
-- Booleans must be written in lower-case
-- Class names must be declared using `StudlyCaps`
-- Method names must be declared using `camelCase`
-- Class constants must be declared in `CAPS` with underscores for separation
-- The closing PHP tag `?>` must be omitted
-- Only `<?php` and `<?=` are acceptable)!
 
 Bug reports should go in [CalderaMS/framework](https://github.com/CalderaMS/framework/issues).
 
