@@ -1,0 +1,5 @@
+<testsuites>
+	<testsuite name="Swiftlet">
+		<directory>src/*/tests</directory>
+	</testsuite>
+</testsuites>
